@@ -6,7 +6,7 @@ void main(List<String> args) {
     home : MyApp(),
   ));
 }
-
+//HEllo guyssss
 class MyApp extends StatefulWidget{
   @override
   _MyAppState createState() =>_MyAppState();
@@ -189,14 +189,14 @@ class MyMenu4 extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Icon(
-                    Icons.scanner_rounded,
+                    Icons.report,
                     size: 50.0,
-                    color: Colors.green,
+                    color: Colors.black,
                   ),
-                  Text("Scan QR Code", style: new TextStyle(fontSize: 17.0)),
+                  Text("BlackList", style: new TextStyle(fontSize: 17.0)),
                   //Navigator wale ke liye ye code add kiya hai----start
                   ElevatedButton(
-                    child: Text('Scan'),
+                    child: Text('View'),
                     onPressed: () {
                       Navigator.push(
                         context,
@@ -223,14 +223,14 @@ class MyMenu5 extends StatelessWidget {
                 mainAxisSize: MainAxisSize.min,
                 children: <Widget>[
                   Icon(
-                    Icons.report,
+                    Icons.scanner_rounded,
                     size: 50.0,
-                    color: Colors.black,
+                    color: Colors.green,
                   ),
-                  Text("BlackList", style: new TextStyle(fontSize: 17.0)),
+                  Text("Scan QR Code", style: new TextStyle(fontSize: 17.0)),
                   //Navigator wale ke liye ye code add kiya hai----start
                   ElevatedButton(
-                    child: Text('View'),
+                    child: Text('Scan'),
                     onPressed: () {
                       Navigator.push(
                         context,
