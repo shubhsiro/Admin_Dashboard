@@ -93,7 +93,8 @@ class MyMenu1 extends StatelessWidget {
                   ),
                   Text("New User", style: new TextStyle(fontSize: 17.0)),
                   //Navigator wale ke liye ye code add kiya hai----start
-                  ElevatedButton(
+                  RaisedButton(
+                    color: Colors.purple[400],
                     child: Text('Add'),
                     onPressed: () {
                       Navigator.push(
@@ -127,7 +128,8 @@ class MyMenu2 extends StatelessWidget {
                   ),
                   Text("Edit User", style: new TextStyle(fontSize: 17.0)),
                   //Navigator wale ke liye ye code add kiya hai----start
-                  ElevatedButton(
+                  RaisedButton(
+                    color: Colors.purple[400],
                     child: Text('Edit'),
                     onPressed: () {
                       Navigator.push(
@@ -161,7 +163,8 @@ class MyMenu3 extends StatelessWidget {
                   ),
                   Text("Instant Booking", style: new TextStyle(fontSize: 17.0)),
                   //Navigator wale ke liye ye code add kiya hai----start
-                  ElevatedButton(
+                  RaisedButton(
+                    color: Colors.purple[400],
                     child: Text('Book'),
                     onPressed: () {
                       Navigator.push(
@@ -195,7 +198,8 @@ class MyMenu4 extends StatelessWidget {
                   ),
                   Text("BlackList", style: new TextStyle(fontSize: 17.0)),
                   //Navigator wale ke liye ye code add kiya hai----start
-                  ElevatedButton(
+                  RaisedButton(
+                    color: Colors.purple[400],
                     child: Text('View'),
                     onPressed: () {
                       Navigator.push(
@@ -229,7 +233,8 @@ class MyMenu5 extends StatelessWidget {
                   ),
                   Text("Scan QR Code", style: new TextStyle(fontSize: 17.0)),
                   //Navigator wale ke liye ye code add kiya hai----start
-                  ElevatedButton(
+                  RaisedButton(
+                    color: Colors.purple[400],
                     child: Text('Scan'),
                     onPressed: () {
                       Navigator.push(
@@ -263,7 +268,8 @@ class MyMenu6 extends StatelessWidget {
                   ),
                   Text("Rate List", style: new TextStyle(fontSize: 17.0)),
                   //Navigator wale ke liye ye code add kiya hai----start
-                  ElevatedButton(
+                  RaisedButton(
+                    color: Colors.purple[400],
                     child: Text('View'),
                     onPressed: () {
                       Navigator.push(
